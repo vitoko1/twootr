@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.list-twoots {
+  width: 800px;
+  margin: 30px;
+  border: 1px solid lightcyan;
+  font-size: 16px;
+  font-family: Kanit;
 }
