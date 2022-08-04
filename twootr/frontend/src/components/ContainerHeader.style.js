@@ -5,6 +5,7 @@ export const AppHeaderContainer = styled.div`
 width: 100vw;
 height: 30vh;
 background-color: #413f42;
+text-align:center;
 
 `
 
