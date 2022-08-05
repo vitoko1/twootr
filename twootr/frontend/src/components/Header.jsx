@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { AppHeaderContainer, InputLastName, InputName, AvatarImage } from './ContainerHeader.style';
-
-
+import { AppHeaderContainer, InputLastName, InputName } from './ContainerHeader.style';
+import { faArrowsToCircle } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 export default function Header() {
@@ -10,7 +10,7 @@ export default function Header() {
   const [imgURL, setImgURL] = React.useState("");
   const [inputNameValue, setInputNameValue,] = React.useState("");
   const [inputLastNameValue, setInputLastNameValue] = React.useState("");
-
+  const [isDisabled, setIsDisabled] = useState(false);
 
   const handleInputChangeName = (e) => {
     setInputNameValue(() => {
@@ -36,6 +36,14 @@ export default function Header() {
   };
 
 
+  function handleInputEnable() {
+
+
+    setIsDisabled(!isDisabled)
+
+  }
+
+
   return (
 
 
@@ -46,9 +54,9 @@ export default function Header() {
 
       ></img>
       <h1>Twootr</h1>
-      < InputName className="form-control" onChange={handleInputChangeName} value={inputNameValue} placeholder="Name" />
-      < InputLastName className="form-control" onChange={handleInputChangeLastName} value={inputLastNameValue} placeholder="Last Name" />
-
+      < InputName className="form-control" disabled={isDisabled} onChange={handleInputChangeName} value={inputNameValue} placeholder="Name" />
+      < InputLastName className="form-control" disabled={isDisabled} onChange={handleInputChangeLastName} value={inputLastNameValue} placeholder="Last Name" />
+      <FontAwesomeIcon icon={faArrowsToCircle} style={{ margin: 6 }} onClick={handleInputEnable} />
 
     </AppHeaderContainer>
 

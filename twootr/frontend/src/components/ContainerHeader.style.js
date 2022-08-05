@@ -26,12 +26,7 @@ export const InputLastName = styled.input`
 
 `;
 
-export const AvatarImage = styled.image `
-src: "https://avatars.dicebear.com/api/bottts/:seed.svg "
-
-`;
 
 
-//<img src="pic_trulli.jpg" alt="Italian Trulli"></img>
 
 
