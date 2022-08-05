@@ -24,6 +24,7 @@ export const DivTop1 = styled.div`
   text-align: left;
   margin-left: 10px;
   margin-right: 10px;
+  font-size: 15px;
   gap: 10px;
 `;
 
@@ -36,7 +37,7 @@ export const DivMid = styled.div`
   justify-content: left;
   margin-left: 15px;
   font-size: 18px;
-  border-bottom: 2px solid #333;
+  border-bottom: 3px solid black;
   margin-bottom: 15px;
 `;
 
@@ -45,6 +46,7 @@ export const DivDown = styled.div`
   justify-content: space-between;
   margin-left: 20px;
   margin-bottom: 20px;
+  font-size: 17px;
 `;
 
 export const DivDownIcon = styled.div`
