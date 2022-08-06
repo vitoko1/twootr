@@ -1,5 +1,6 @@
 import React from "react";
 import axios from "axios";
+import './App.css';
 import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart, faFlag, faRotate } from "@fortawesome/free-solid-svg-icons";
@@ -65,10 +66,10 @@ export default function ViewTwoots() {
             </DivMid>
             <DivDown>
               <p>{"Twooted " + twoot.dateAdded}</p>
-              <DivDownIcon>
-                <FontAwesomeIcon icon={faFlag} style={{ color: "red" }} />
-                <FontAwesomeIcon icon={faRotate} />
-                <FontAwesomeIcon icon={faHeart} />
+              <DivDownIcon> 
+                <FontAwesomeIcon id='flag' icon={faFlag}/>
+                <FontAwesomeIcon id='arrow' icon={faRotate} />
+                <FontAwesomeIcon id='heart' icon={faHeart} />
               </DivDownIcon>
             </DivDown>
             <br />
