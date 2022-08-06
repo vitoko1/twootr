@@ -8,7 +8,7 @@ export const Container = styled.div`
   width: 800px;
   border: 10px double #000;
   outline: 8px solid #888888;
-  margin-left: 20px;
+  margin-left: 600px;
   margin-top: 20px;
   font-family: "Kanit", sans-serif;
   color: #888888;

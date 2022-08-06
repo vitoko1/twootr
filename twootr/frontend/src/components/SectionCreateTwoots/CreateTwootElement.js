@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center !important;
   width: 100%;
   height: 200px;
   margin-left: 10px;
@@ -14,7 +14,7 @@ export const Title = styled.h5`
   font-size: 18px;
   font-weight: bold;
   color: black;
-  margin-left: 25px;
+  margin-left: 900px;
 `;
 
 export const Input = styled.input`
@@ -23,7 +23,7 @@ export const Input = styled.input`
   border-bottom: 2px solid black;
   font-family: monospace;
   width: 850px;
-  margin-left: 15px;
+  margin-left: 600px;
 `;
 
 export const DivDown = styled.div`
@@ -42,6 +42,7 @@ export const Button = styled.button`
   width: 80px;
   height: 35px;
   margin-top: 10px;
+  margin-left: 600px;
 
   &:hover {
     background: #b768f0;
@@ -53,4 +54,12 @@ export const Characters = styled.p`
   font-size: 18px;
   font-weight: bold;
   color: #888888;
+  margin-right: 450px;
 `;
+
+export const MainContainer = styled.div`
+ display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+
+`
