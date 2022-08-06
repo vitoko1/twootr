@@ -14,6 +14,7 @@ export const Title = styled.h5`
   font-size: 18px;
   font-weight: bold;
   color: black;
+  margin-left: 25px;
 `;
 
 export const Input = styled.input`
@@ -21,6 +22,8 @@ export const Input = styled.input`
   font-size: 16px;
   border-bottom: 2px solid black;
   font-family: monospace;
+  width: 850px;
+  margin-left: 15px;
 `;
 
 export const DivDown = styled.div`
