@@ -24,12 +24,12 @@ export const DivTop1 = styled.div`
   text-align: left;
   margin-left: 10px;
   margin-right: 10px;
-  font-size: 15px;
+  font-size: 18px;
   gap: 10px;
 `;
 
 export const DivTop2 = styled.div`
-  margin-left: 45%;
+  margin-left: 40%;
 `;
 
 export const DivMid = styled.div`
