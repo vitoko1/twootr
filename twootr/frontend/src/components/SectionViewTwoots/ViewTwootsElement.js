@@ -52,5 +52,7 @@ export const DivDown = styled.div`
 export const DivDownIcon = styled.div`
   display: flex;
   justify-content: flex-end;
-  gap: 10px;
+  gap: 15px;
+  font-size: 20px;
+  
 `;
